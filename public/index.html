@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLINIKK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./tailwind.css" rel="stylesheet" />
+  </head>
+  <body class="bg-primary">
+    <nav
+      class="px-6 py-5 static w-full bg-primary flex items-center bg-[#D3D3D3]"
+    >
+      <div class="w-full max-w-7xl mx-2 flex gap-6 items-center">
+        <div class="flex items-center bg-[#E5E5E5] p-2 rounded-xl">
+          <img
+            src="../assets/menu.svg"
+            alt="Menu"
+            class="w-[28px] h-[28px] object-contain cursor-pointer text-black"
+           "
+          />
+        </div>
+        <a href="/" class="flex items-center gap-2">
+          <p
+            class="text-white text-[18px] font-bold cursor-pointer sm:block logo"
+          >
+            CLINIKK
+          </p>
+        </a>
+      </div>
+    </nav>
+
+    <section class="p-6 w-full mt-2">
+      <h4 class="text-black font-bold text-md">
+        11 doctors available in Bangalore.
+      </h4>
+      <p>
+        <span><i class="fa-regular fa-circle-check"></i></span>
+        <span class="icon-text text-opacity-50 text-gray-800">
+          Book appointments with minimum wait-time & verified doctor
+          details</span
+        >
+      </p>
+    </section>
+
+    <!-- PROFILE CARD -->
+    <div class="flex flex-col md:flex-row gap-4">
+      <section
+        class="max-w-[432px] max-h-[442px] w-full m-auto my-12 sm:w-[50vw]"
+      >
+        <div class="flex p-2">
+          <div class="prof-img w-48 h-48 p-4">
+            <img
+              src="https://imagesx.practo.com/providers/dr-renuka-c-general-physician-bangalore-bd103c0f-149a-48d7-973b-766e9b832819.jpg?i_type=t_100x100-4x"
+              class="w-full h-full rounded-md"
+              alt=""
+            />
+          </div>
+          <div class="prof-about px-2 py-6">
+            <h2 class="text-[#199FD9] font-bold">Dr Renuka C</h2>
+            <p class="text-opacity-50 text-gray-800">MBBS</p>
+            <p class="text-opacity-50 text-gray-800">
+              6 years experience overall
+            </p>
+          </div>
+        </div>
+
+        <!-- achievements -->
+        <div class="flex p-4 border-b-2 border-t-2">
+          <div class="flex items-center text-white mr-5">
+            <p class="px-2 rounded-md green flex justify-evenly items-center">
+              <i class="fa-solid fa-thumbs-up px-1 py-2"></i>
+              <strong>97%</strong>
+            </p>
+            <p class="para-size p-2 text-opacity-50 text-gray-800">
+              Patient <br />
+              Recognition
+            </p>
+          </div>
+
+          <div class="flex items-center text-white justify-center">
+            <p
+              class="px-2 rounded-md bg-[#434EA2] flex justify-evenly items-center"
+            >
+              <i class="fa-solid fa-thumbs-up px-1 py-2"></i>
+              <strong>4.9</strong>
+            </p>
+            <p class="para-size p-2 text-opacity-50 text-gray-800">
+              Patient <br />
+              Ratings
+            </p>
+          </div>
+        </div>
+
+        <!-- address -->
+        <div class="p-4">
+          <p class="py-1">
+            <strong class="text-gray-600">Koramangala, Bangalore</strong>
+            <span class="text-opacity-50 text-gray-800">
+              &bull; Primary Care</span
+            >
+          </p>
+          <p class="py-1">
+            <strong class="text-[#00A500]">Open</strong>
+            <span class="text-opacity-50 text-gray-800">
+              &bull; Mon-Fri 9:30-1 PM , 4-8:30 PM
+            </span>
+          </p>
+          <p class="py-1">
+            <strong>&#8377;250</strong>
+            <span class="text-opacity-50 text-gray-800"
+              >Consultation fee at clinic</span
+            >
+          </p>
+        </div>
+        <!-- BUTTONS -->
+        <div class="flex justify-between sm:px-6 py-3 px-4 border-t-2">
+          <button
+            class="text-[#434EA2] font-bold py-2 px-6 bg-white rounded-md border-2 border-[#1995D9] focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50"
+          >
+            View Profile
+          </button>
+
+          <button
+            class="font-bold py-2 px-6 text-white rounded-md bg-[#1995D9]"
+          >
+            Book Clinic Visit
+          </button>
+        </div>
+      </section>
+
+      <section class="max-w-[432px] max-h-[442px] w-full m-auto sm:w-[50vw]">
+        <div class="flex p-2">
+          <div class="prof-img w-48 h-48 py-4">
+            <img
+              src="https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7807.jpg"
+              class="w-full h-full rounded-md"
+              alt=""
+            />
+          </div>
+          <div class="prof-about px-2 py-6">
+            <h2 class="text-[#199FD9] font-bold">Dr Renuka C</h2>
+            <p class="text-opacity-50 text-gray-800">MBBS</p>
+            <p class="text-opacity-50 text-gray-800">
+              6 years experience overall
+            </p>
+          </div>
+        </div>
+
+        <!-- achievements -->
+        <div class="flex p-4 border-b-2 border-t-2">
+          <div class="flex items-center text-white mr-5">
+            <p class="px-2 rounded-md green flex justify-evenly items-center">
+              <i class="fa-solid fa-thumbs-up px-1 py-2"></i>
+              <strong>97%</strong>
+            </p>
+            <p class="para-size p-2 text-opacity-50 text-gray-800">
+              Patient <br />
+              Recognition
+            </p>
+          </div>
+
+          <div class="flex items-center text-white justify-center">
+            <p
+              class="px-2 rounded-md bg-[#434EA2] flex justify-evenly items-center"
+            >
+              <i class="fa-solid fa-thumbs-up px-1 py-2"></i>
+              <strong>4.9</strong>
+            </p>
+            <p class="para-size p-2 text-opacity-50 text-gray-800">
+              Patient <br />
+              Ratings
+            </p>
+          </div>
+        </div>
+
+        <!-- address -->
+        <div class="p-4">
+          <p class="py-1">
+            <strong class="text-gray-600">Koramangala, Bangalore</strong>
+            <span class="text-opacity-50 text-gray-800">
+              &bull; Primary Care</span
+            >
+          </p>
+          <p class="py-1">
+            <strong class="text-[#00A500]">Open</strong>
+            <span class="text-opacity-50 text-gray-800">
+              &bull; Mon-Fri 9:30-1 PM , 4-8:30 PM
+            </span>
+          </p>
+          <p class="py-1">
+            <strong>&#8377;250</strong>
+            <span class="text-opacity-50 text-gray-800"
+              >Consultation fee at clinic</span
+            >
+          </p>
+        </div>
+        <!-- BUTTONS -->
+        <div class="flex justify-between sm:px-6 py-3 px-4 border-t-2">
+          <button
+            class="text-[#434EA2] font-bold py-2 px-6 bg-white rounded-md border-2 border-[#1995D9] focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50"
+          >
+            View Profile
+          </button>
+
+          <button
+            class="font-bold py-2 px-6 text-white rounded-md bg-[#1995D9]"
+          >
+            Book Clinic Visit
+          </button>
+        </div>
+      </section>
+    </div>
+    <!-- about clinic -->
+    <section class="p-4 sm:m-20 my-10">
+      <h4>
+        <strong>
+          Discover Superior Healthcare at Clinick: <br />
+          Your Neighbourhood clinick in bangaluru</strong
+        >
+      </h4>
+      <br />
+
+      <p class="about-para">
+        At Cilnikk, we believe that quality healthcare should be accessible to
+        everyone. Since our Inception in 2016, we have been dedicated to
+        providing top-notch outpatient care at affordable costs. Founded by the
+        visionary duo Bhavjot Kaur and Dr. Suraj Baliga, Clinikk has grown into
+        a network of 11 state-of-the- art clinics spread across Bengaluru. Our
+        mission is simple: to ensure that every segment of society receives the
+        highest quality of healthcare. Welcome to Clinikk, your trusted 'clinic
+        near me for exceptional healthcare services.
+
+        <br />
+        <br />
+
+        Our Clinics: Conveniently Located Across Bengaluru
+
+        <br />
+        <br />
+
+        Clinikk takes pride in its widespread presence across Bengaluru, making
+        it easier for residents to access superior healthcare services. Our
+        clinics are strategically located
+        <br />
+        <br />
+        -Kammanahalli<br />
+        -Bommanahalli<br />
+        -Kaggadasapura<br />
+        -Koramangala<br />
+        -Bannerghatta<br />
+        -Malleshwaram<br />
+        -JP Nagar<br />
+        - Nagarbhavi<br />
+        -Adugodi<br />
+        -Banashankari<br />
+        -Peenya
+        <br /><br />
+        No matter where you are in Bengaluru, there's a high quality Clinikk
+        clinic near you
+      </p>
+    </section>
+  </body>
+</html>
