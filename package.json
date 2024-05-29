@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss build ./src/tailwind.css -o ./public/tailwind.css",
-    "prod": " npx tailwindcss build ./src/tailwind.css -o ./public/tailwind.css"
+    "prod": " npx tailwindcss build -i ./src/tailwind.css -o ./public/tailwind.css"
   },
   "keywords": [],
   "author": "",

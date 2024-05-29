@@ -15,6 +15,12 @@
     font-size: 19.66px;
     color: #2D2D32;
   }
+
+  @media (min-width:720px) {
+    h4{
+        font-size: 26px;}
+  }
+  
   
   .prof-img img{
     width: 100%;
